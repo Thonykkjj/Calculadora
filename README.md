@@ -77,3 +77,12 @@ Melhorias:
 - Melhor experiência para o usuário.
 
 ---
+
+## 👥 Integrantes
+
+| Integrante | GitHub |
+|------------|--------|
+| Douglas Gabriel | douglas-gabriel32 |
+| Ithalo Kauã | ithalomarques-create |
+| Anthony Miguel | Thonykkjj |
+| José Franklin | josefranklin-droid

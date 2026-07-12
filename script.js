@@ -25,6 +25,20 @@ botoes.forEach((botao) => {
             display.value = display.value.slice(0, -1);
             return;
         }
+// Calcular resultado
+        if (acao === "calculate") {
 
+            try {
+
+                display.value = eval(display.value);
+
+            } catch {
+
+                display.value = "Erro";
+
+            }
+
+            return;
+        }
     });
 });

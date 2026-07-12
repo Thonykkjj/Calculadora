@@ -40,5 +40,36 @@ botoes.forEach((botao) => {
 
             return;
         }
+        // Raiz quadrada
+if (acao === "sqrt") {
+
+    display.value = Math.sqrt(Number(display.value));
+
+    return;
+}
+
+// Quadrado
+if (acao === "square") {
+
+    display.value = Math.pow(Number(display.value), 2);
+
+    return;
+}
+
+// Porcentagem
+if (acao === "percent") {
+
+    display.value = Number(display.value) / 100;
+
+    return;
+}
+
+// PI
+if (acao === "pi") {
+
+    display.value += Math.PI;
+
+    return;
+}
     });
 });

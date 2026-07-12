@@ -43,3 +43,11 @@ Projeto desenvolvido para a disciplina de Desenvolvimento Web utilizando HTML, C
 - Cálculo da expressão (=)
 
 ---
+
+## 🚀 Como executar
+
+1. Faça o download ou clone este repositório.
+2. Abra o arquivo *index.html* em qualquer navegador moderno.
+3. A calculadora estará pronta para uso.
+
+---

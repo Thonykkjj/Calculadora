@@ -67,14 +67,96 @@ if (acao === "percent") {
 // PI
 if (acao === "pi") {
 
-    display.value += Math.PI;
+    if (display.value === "") {
+
+        display.value = Math.PI;
+
+    } else {
+
+        display.value += "*" + Math.PI;
+
+    }
 
     return;
 }
-// Número de Euler
+
+// Euler
 if (acao === "e") {
 
-    display.value += Math.E;
+    if (display.value === "") {
+
+        display.value = Math.E;
+
+    } else {
+
+        display.value += "*" + Math.E;
+
+    }
+
+    return;
+}
+// Potência
+if (acao === "power") {
+
+    display.value += "**";
+
+    return;
+}
+
+// seno
+if (acao === "sin") {
+
+    display.value = Math.sin(Number(display.value) * Math.PI / 180);
+
+    return;
+}
+
+// cosseno
+if (acao === "cos") {
+
+    display.value = Math.cos(Number(display.value) * Math.PI / 180);
+
+    return;
+}
+
+// tangente
+if (acao === "tan") {
+
+    display.value = Math.tan(Number(display.value) * Math.PI / 180);
+
+    return;
+}
+
+// log
+if (acao === "log") {
+
+    display.value = Math.log10(Number(display.value));
+
+    return;
+}
+
+// ln
+if (acao === "ln") {
+
+    display.value = Math.log(Number(display.value));
+
+    return;
+}
+
+// fatorial
+if (acao === "factorial") {
+
+    let numero = Number(display.value);
+
+    let resultado = 1;
+
+    for (let i = 2; i <= numero; i++) {
+
+        resultado *= i;
+
+    }
+
+    display.value = resultado;
 
     return;
 }

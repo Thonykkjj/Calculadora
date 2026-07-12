@@ -56,3 +56,27 @@ button{
     font-size:18px;
     cursor:pointer;
 }
+
+button{
+    background:#3a3a3a;
+    color:white;
+}
+
+button[data-action="calculate"]{
+    background:#16a34a;
+}
+
+button[data-action="clear"]{
+    background:#dc2626;
+}
+
+button[data-action="delete"]{
+    background:#ea580c;
+}
+
+button[data-value="+"],
+button[data-value="-"],
+button[data-value="*"],
+button[data-value="/"]{
+    background:#2563eb;
+}

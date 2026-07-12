@@ -20,3 +20,26 @@ Projeto desenvolvido para a disciplina de Desenvolvimento Web utilizando HTML, C
 - Subtração (-)
 - Multiplicação (×)
 - Divisão (÷)
+
+### Operações Científicas
+
+- Raiz quadrada (√)
+- Potência ao quadrado (x²)
+- Potência (xʸ)
+- Porcentagem (%)
+- Seno (sin)
+- Cosseno (cos)
+- Tangente (tan)
+- Logaritmo (log)
+- Logaritmo Natural (ln)
+- Número π (Pi)
+- Número de Euler (e)
+- Fatorial (!)
+
+### Outras funções
+
+- Limpar visor (C)
+- Apagar último caractere (DEL)
+- Cálculo da expressão (=)
+
+---

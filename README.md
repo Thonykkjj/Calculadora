@@ -86,3 +86,20 @@ Melhorias:
 | Ithalo Kauã | ithalomarques-create |
 | Anthony Miguel | Thonykkjj |
 | José Franklin | josefranklin-droid
+
+## 📚 Organização do Projeto
+
+
+Calculadora/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+
+
+---
+
+## 📄 Licença
+
+Projeto desenvolvido exclusivamente para fins acadêmicos.

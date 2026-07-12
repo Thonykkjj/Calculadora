@@ -51,3 +51,29 @@ Projeto desenvolvido para a disciplina de Desenvolvimento Web utilizando HTML, C
 3. A calculadora estará pronta para uso.
 
 ---
+
+## 📦 Releases
+
+### v1.0.0
+
+Primeira versão funcional da calculadora.
+
+Características:
+
+- Interface simples.
+- Todas as funcionalidades implementadas.
+- Foco na funcionalidade.
+
+### v2.0.0
+
+Versão com melhorias visuais.
+
+Melhorias:
+
+- Interface moderna.
+- Tema escuro.
+- Layout responsivo.
+- Melhor organização dos elementos.
+- Melhor experiência para o usuário.
+
+---

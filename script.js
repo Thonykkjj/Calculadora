@@ -71,5 +71,12 @@ if (acao === "pi") {
 
     return;
 }
+// Número de Euler
+if (acao === "e") {
+
+    display.value += Math.E;
+
+    return;
+}
     });
 });

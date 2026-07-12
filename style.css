@@ -42,3 +42,17 @@ body{
     text-align:right;
     padding:15px;
 }
+
+.botoes{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:12px;
+}
+
+button{
+    height:58px;
+    border:none;
+    border-radius:12px;
+    font-size:18px;
+    cursor:pointer;
+}
